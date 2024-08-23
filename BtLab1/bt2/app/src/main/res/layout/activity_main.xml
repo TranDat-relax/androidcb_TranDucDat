@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/txtRandomNumber"
+        android:layout_width="100dp"
+        android:layout_height="88dp"
+        android:padding="16dp"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imgDice"
+        android:layout_width="181dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="36dp" />
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="146dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="16dp"
+        android:text="Tung Xúc Xắc" />
+</LinearLayout>
