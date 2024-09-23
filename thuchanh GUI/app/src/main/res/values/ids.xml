@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextName" type="id" />
+    <item name="editTextHeight" type="id" />
+    <item name="editTextWeight" type="id" />
+    <item name="buttonCalculate" type="id" />
+    <item name="textViewBMIResult" type="id" />
+    <item name="textViewDiagnosis" type="id" />
+</resources>

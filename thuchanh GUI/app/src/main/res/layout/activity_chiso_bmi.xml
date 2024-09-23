@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Tiêu đề ứng dụng -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHƯƠNG TRÌNH TÍNH CHỈ SỐ BMI"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:textColor="#FFFFFF"
+        android:background="#4CAF50" />
+
+    <!-- Nhập tên -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên"
+        android:inputType="textPersonName" />
+
+    <!-- Nhập chiều cao -->
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chiều cao (m)"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp" />
+
+    <!-- Nhập cân nặng -->
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cân nặng (kg)"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp" />
+
+    <!-- Nút Tính BMI -->
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TÍNH BMI"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:background="#FF5722"
+        android:textColor="#FFFFFF" />
+
+    <!-- Hiển thị kết quả BMI -->
+    <TextView
+        android:id="@+id/textViewBMIResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI = "
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Hiển thị chẩn đoán -->
+    <TextView
+        android:id="@+id/textViewDiagnosis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chẩn đoán:"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
